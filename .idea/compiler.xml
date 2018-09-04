@@ -7,10 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis-lock-autoconfigure" />
+        <module name="redis-lock-perform" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="redis-lock-autoconfigure" target="1.8" />
+      <module name="redis-lock-db" target="1.8" />
+      <module name="redis-lock-perform" target="1.8" />
       <module name="redislock" target="1.8" />
     </bytecodeTargetLevel>
   </component>
