@@ -4,12 +4,14 @@ import com.example.redislockperform.dataBaseLock.DbLockManager;
 import com.example.redislockperform.entity.TMethodLockEntity;
 import com.example.redislockperform.repository.TMethodLockRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * @Auther: changzhaoliang
  * @Date: 2018/9/4 20:27
  * @Description:
  */
+@Service
 public class DbLockManagerImpl implements DbLockManager{
 
     @Autowired
